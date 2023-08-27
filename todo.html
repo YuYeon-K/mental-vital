@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>To-Do List</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+  <div class="page-content">
+    <!--Header -->
+    <header>
+      <img src="https://cdn-icons-png.flaticon.com/512/3997/3997942.png" alt="brain" />
+      <div><a href="index.html">Mental Vital</a></div>
+      <nav>
+        <ul>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="todo.html">To-Do</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Section descriptions-->
+    <section>
+      <div class="info">
+        <h1>To Do List</h1>
+        <p>Start organizing and planning what you can do now!</p>
+        <img </div>
+    </section>
+
+    <!--To Do List -->
+    <section>
+      <div class="todo-flex">
+        <div>
+          <article>
+            <h2>Organization</h2>
+            <dl>
+              <dt>What is the benefits of making a to do list?</dt>
+              <dd>- Improves your memory and reinforces the information.</dd>
+              <dd>- Increase productivity by reviewing the list and priotizeing the most crucial tasks.</dd>
+              <dd>- Motivates you to accomplish your goals.</dd>
+            </dl>
+          </article>
+        </div>
+        <div>
+          <div id="myDIV" class="header">
+            <h2>Healthy Life-style To Do List</h2>
+            <!-- myInput is a single-line text input field -->
+            <input type="text" id="myInput" placeholder="Example...">
+            <!-- add new tasks if a button is clicked -->
+            <span onclick="newElement()" class="addBtn">Add</span>
+          </div>
+
+          <!-- List of example tasks -->
+          <ul id="myUL">
+            <li class="task">Go for a walk</li>
+            <li class="task">Spend time with friends/family</li>
+            <li class="task">Sleep over 8 hours</li>
+            <li class="task">Make a new hobby</li>
+            <li class="task">Read a book</li>
+            <li class="task">Organize room/office/locker</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!--Footer-->
+  <footer>
+    <div>Mental Vital Copyright 2022. All rights reserved</div>
+  </footer>
+
+  <script src="todo.js"></script>
+</body>
+
+</html>

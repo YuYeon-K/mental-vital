@@ -1,0 +1,13 @@
+{
+  "name": "mental-vital",
+  "version": "1.0.0",
+  "description": "![image](https://github.com/YuYeon-K/mental-vital/assets/84812808/63eeb384-0258-4409-ae06-663ee82d52c6)",
+  "main": ".js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
